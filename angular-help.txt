@@ -863,7 +863,7 @@ From Angular 9    : ng build
 Angular Readymade CaseStudy
 ===============================
 
-https://github.com/DanWahlin/Angular-JumpStart
+https://github.com/pvc2021/Angular-JumpStart
 
 Angular + Express  (You need to convert in Backend -Spring Boot)
 
@@ -895,10 +895,13 @@ CORS Policy : Cross Origin Resource Sharing
 3. Caller and Callee  shoud use same port
 
 
-
 Chane Detection startegay
 =========================
 https://medium.com/@bencabanes/angular-change-detection-strategy-an-introduction-819aaa7204e7
+
+https://www.digitalocean.com/community/tutorials/angular-change-detection-strategy
+
+
 
 
 
@@ -914,6 +917,54 @@ To start the server
 
 
 
+https://www.javatpoint.com/angular-material
+
+
+Angular Material
+==================
+Angular Material is a UI library component developed by Google in 2014. It is specially designed for AngularJS developers. It helps to design the application in a structured manner. Its components help to construct attractive, consistent, and functional web pages and web applications. It is used to create a responsive and faster website.
+
+Angular Material Tutorial
+It attracts users and access the elements or components present in our application. It also helps to design our applications with unique styles and shapes.
+
+These components make the application or website more consistent and design responsive. It combines the classic principles of successful design with innovation and technology.
+
+Google developed Angular Material in 2014. At that time, it was tagged to AngularJS to make the applications more attractive and faster performance. Google wrote the code again from scratch and removed JS, then named it Angular Material in September 2016. UI/UX components are known as Angular Materials.
+
+
+npm i @angular/material    or ng add @angular/material
+npm i @angular/cdk 
+npm i hammerjs
+
+ng g @angular/material:material-nav --name NavBar
+
+ng g @angular/material:material-table --name MyTab
+
+ng g @angular/material:material-dashboard --name MyDashboard
+
+
+
+Angular Material provides us with four themes.
+================================================
+
+deeppurple-amber.css
+
+indigo-pink.css
+
+pink-bluegrey.css
+
+purple-green.css
+
+Choose one theme and include into style.scss
+=================================================
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+
+Angular JWT Authentication   
+=============================
+https://github.com/cornflourblue/angular-7-jwt-authentication-example
 
 
 
